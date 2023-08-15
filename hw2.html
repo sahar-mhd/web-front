@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="input">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="b7" onclick="myfun('7')">7</button>
+                </td>
+                <td>
+                    <button id="b8" onclick="myfun('8')">8</button>
+                </td>
+                <td>
+                    <button id="b9" onclick="myfun('9')">9</button>
+                </td>
+                <td>
+                    <button id="b/" onclick="myfun('/')">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="b4" onclick="myfun('4')">4</button>
+                </td>
+                <td>
+                    <button id="b5" onclick="myfun('5')">5</button>
+                </td>
+                <td>
+                    <button id="b6" onclick="myfun('6')">6</button>
+                </td>
+                <td>
+                    <button id="b*" onclick="myfun('*')">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="b1" onclick="myfun('1')">1</button>
+                </td>
+                <td>
+                    <button id="b2" onclick="myfun('2')">2</button>
+                </td>
+                <td>
+                    <button id="b3" onclick="myfun('3')">3</button>
+                </td>
+                <td>
+                    <button id="b-" onclick="myfun('-')">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="b" onclick="myfun('.')">.</button>
+                </td>
+                <td>
+                    <button id="b0" onclick="myfun('0')">0</button>
+                </td>
+                <td>
+                    <button id="b+" onclick="myfun('+','b+')">+</button>
+                </td>
+                <td>
+                    <button id="bc" class="b1" onclick="back()">C</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <button id="b=" class="b2" onclick="equal()">=</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="myjs.js"></script>
+</body>
+
+</html>
