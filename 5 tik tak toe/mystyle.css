@@ -1,0 +1,33 @@
+div {
+    display: inline-block;
+    width: 420px;
+    height: 420px;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(119, 90, 200), rgb(240, 202, 202));
+
+}
+
+button {
+    background-image: linear-gradient(to top, rgb(232, 216, 216), white);
+    margin: 5px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    display: inline;
+    width: 120px;
+    height: 120px;
+    font-size: 48px;
+}
+
+button:hover {
+    box-shadow: 2px 2px rgb(198, 193, 193);
+}
+
+.b1{
+    font-size: 16px;
+    width: 50px;
+    height: 40px;
+    display: none;
+}
+
