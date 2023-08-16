@@ -1,0 +1,32 @@
+img {
+    width: 70%;
+}
+
+button {
+    background-image: linear-gradient(to top, rgb(232, 216, 216), white);
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+}
+
+button:hover {
+    box-shadow: 2px 2px rgb(198, 193, 193);
+}
+
+.selected {
+    background-image: linear-gradient(to top, rgb(196, 124, 224), rgb(117, 43, 152));
+}

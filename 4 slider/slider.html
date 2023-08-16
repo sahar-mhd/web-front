@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <img class="mySlides" src="images/arizona.jpg">
+        <img class="mySlides" src="images/ireland.jpg">
+        <img class="mySlides" src="images/sea.jpg">
+        <img class="mySlides" src="images/sky.jpg">
+        <img class="mySlides" src="images/valley.jpg">
+
+        <ul>
+            <li> <button onclick="myfun(-1)">&#10094;</button></li>
+
+            <li> <button class="buttons" onclick="page(1)"></button></li>
+            <li><button class="buttons" onclick="page(2)"></button></li>
+            <li><button class="buttons" onclick="page(3)"></button></li>
+            <li> <button class="buttons" onclick="page(4)"></button></li>
+            <li> <button class="buttons" onclick="page(5)"></button></li>
+
+            <li> <button onclick="myfun(1)">&#10095;</button></li>
+
+        </ul>
+
+    </div>
+
+    <script src="myjs.js"></script>
+</body>
+
+</html>
