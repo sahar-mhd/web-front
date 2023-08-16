@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Side bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li> <button>تنظیمات حساب کاربری
+                    <i class="fa">&#xf2bc;</i>
+                </button>
+            </li>
+            <li> <button>حساب <i class="fa">&#xf2bc;</i></button></li>
+            <li><button onclick="myfun(1)">
+                    <i class="left" id="i1">&#10094;</i>
+                    فهرست
+                    <i class="fa">&#xf2bc;</i>
+                </button>
+            </li>
+
+            <li><button class="submenu hide s1">با مهارت من</button></li>
+            <li> <button class="submenu hide s1">پروژه ها</button></li>
+            <li> <button class="submenu hide s1">مسابقه ها</button></li>
+
+            <li> <button>فریلنسر ها <i class="fa">&#xf2bc;</i></button></li>
+            <li> <button>ارتقا عضویت رایگان <i class="fa">&#xf2bc;</i></button></li>
+            <li> <button onclick="myfun(2)">
+                    <i class="left" id="i2">&#10094;</i>
+                    راهنما
+                    <i class="fa">&#xf2bc;</i>
+                </button>
+            </li>
+
+            <li> <button class="submenu hide s2">فریلنسر ها</button></li>
+            <li> <button class="submenu hide s2">فریلنسر ها</button></li>
+
+            <li> <button>خروج <i class="fa">&#xf2bc;</i></button></li>
+
+        </ul>
+
+    </div>
+
+    <script src="myjs.js"></script>
+</body>
+
+</html>
